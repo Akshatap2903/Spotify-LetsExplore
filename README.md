@@ -212,7 +212,7 @@ This optimization shows how indexing can drastically reduce query time, improvin
 ## Technology Stack
 - **Database**: PostgreSQL
 - **SQL Queries**: DDL, DML, Aggregations, Joins, Subqueries, Window Functions
-- **Tools**: pgAdmin 4 (or any SQL editor), PostgreSQL (via Homebrew, Docker, or direct installation)
+- **Tools**: pgAdmin 4 (or any SQL editor), PostgreSQL
 
 ---
 ## Future Enhancements
