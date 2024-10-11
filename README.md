@@ -180,10 +180,10 @@ Here’s an updated section for my **Spotify Advanced SQL Project** README, focu
 
 ## Query Optimization Technique 
 
-To improve query performance, we carried out the following optimization process:
+To improve query performance, I carried out the following optimization process:
 
 - **Initial Query Performance Analysis Using `EXPLAIN`**
-    - We began by analyzing the performance of a query using the `EXPLAIN` function.
+    - I began by analyzing the performance of a query using the `EXPLAIN` function.
     - The query retrieved tracks based on the `artist` column, and the performance metrics were as follows:
         - Execution time (E.T.): **7 ms**
         - Planning time (P.T.): **0.17 ms**
@@ -191,7 +191,7 @@ To improve query performance, we carried out the following optimization process:
     - ![Screenshot 2024-10-12 004148](https://github.com/user-attachments/assets/943737f6-9e66-4351-ac33-88e79add0c86)
 
 - **Index Creation on the `artist` Column**
-    - To optimize the query performance, we created an index on the `artist` column. This ensures faster retrieval of rows where the artist is queried.
+    - To optimize the query performance, I created an index on the `artist` column. This ensures faster retrieval of rows where the artist is queried.
     - **SQL command** for creating the index:
       ```sql
       CREATE INDEX idx_artist ON spotify_tracks(artist);
